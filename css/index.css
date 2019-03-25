@@ -248,6 +248,8 @@ ul {
 	line-height: 2;	
 }
 
+/* tablet */
+
 @media(max-width: 800px) {
 
     .container {
@@ -269,8 +271,7 @@ ul {
     }
 
     .cta .cta-text {
-        margin-top: 2px;
-        margin-left: 255px;
+        margin: auto;
     }
 
     .cta img {
@@ -294,7 +295,44 @@ ul {
     .contact {
         margin-left: 25px;
     }
+
+    /*services page*/
+
+    .services-header-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro {
+        padding: 0 10px;
+    }
+    
+    .parentContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .parentContainer .childItem {
+        width: 48.5%;
+    }
+
+    .factsContainer {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .factsContainer div{
+        padding: 10px;
+    }
+
+    .factsContainer .services-info-img {
+        width: 100%;
+        height: auto;
+    }
 }
+
+/* phone */
 
 @media(max-width: 500px) {
 
