@@ -272,6 +272,7 @@ ul {
 
     .cta .cta-text {
         margin: auto;
+        width: 48.5%;
     }
 
     .cta img {
@@ -292,6 +293,9 @@ ul {
         margin: 35px 0 0 0;
     }
 
+    .main-content .bottom-content .text-content {
+        width: 33.3%;
+    }
     .contact {
         margin-left: 25px;
     }
@@ -375,7 +379,9 @@ ul {
    }
 
    .main-content .bottom-content .text-content {
+       width: 100%;
        padding: 20px 0;
+       margin: auto;
        
    }
 
