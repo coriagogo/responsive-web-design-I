@@ -95,16 +95,10 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-header nav a:first-child {
-  margin-left: 0;
-}
 
-/*header nav a:last-child {
-  margin-right: 0;
-}
 header .logo {
-  margin-top: 25px;
-}*/
+  margin-left: 5px;
+}
 
 /* cta */
 
@@ -252,4 +246,69 @@ ul {
 	list-style-type: square;
 	list-style-position: inside;
 	line-height: 2;	
+}
+
+@media(max-width: 800px) {
+
+    .container {
+        width: 100%;
+    }
+    header {
+        display: flex;
+        flex-direction: column-reverse;        
+    }
+
+    header .logo {
+        padding-bottom: 40px;
+    }
+
+    header nav a {
+        margin: 40px;
+    }
+    
+    header nav a:first-child{
+        margin-left: 0;
+    }
+
+    .cta .cta-text {
+        margin-top: 2px;
+        margin-left: 255px;
+    }
+
+    .cta img {
+        display: none;
+    }
+
+    .main-content {
+        margin: 77px 5%;
+       width: 90%;
+    }
+
+    .main-content .middle-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content .bottom-content {
+        margin: 35px 0 0 0;
+    }
+
+    .contact {
+        margin-left: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    
+    header nav a {
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:0;
+        padding: 8%;
+        border-bottom:1px solid black;
+        width: 100%;
+    }
 }
