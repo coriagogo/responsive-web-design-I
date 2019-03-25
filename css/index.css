@@ -253,6 +253,7 @@ ul {
     .container {
         width: 100%;
     }
+
     header {
         display: flex;
         flex-direction: column-reverse;        
@@ -262,10 +263,7 @@ ul {
         padding-bottom: 40px;
     }
 
-    header nav a {
-        margin: 40px;
-    }
-    
+        
     header nav a:first-child{
         margin-left: 0;
     }
@@ -300,15 +298,43 @@ ul {
 
 @media(max-width: 500px) {
 
-    
+    header .logo {
+        padding-bottom: 18px;
+    }
     header nav a {
 
         display:flex;
         flex-direction:column;
         align-items:center;
         margin:0;
-        padding: 8%;
+        padding: 18px;
         border-bottom:1px solid black;
-        width: 100%;
+        width: auto;
+        font-size: 20px;
     }
+
+    .cta .cta-text{
+        margin: auto;
+    }
+
+    .main-content .top-content {
+        display: flex;
+        flex-direction: column;
+   }
+
+   .main-content .top-content .text-content {
+       padding: 20px 0;
+   }
+
+   .main-content .bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+   }
+
+   .main-content .bottom-content .text-content {
+       padding: 20px 0;
+       
+   }
 }
