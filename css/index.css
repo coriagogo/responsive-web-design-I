@@ -375,4 +375,39 @@ ul {
        padding: 20px 0;
        
    }
+
+   /* services page */
+
+   .parentContainer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+   }
+   
+
+   .parentContainer .childItem {
+    margin: 20px 5%;
+    width: 90%;
+   }
+
+   .parentContainer .childItem p{
+       padding-bottom: 10px;
+   }
+
+   .parentContainer .childItem button {
+	border: 1px solid black;
+    margin: 10px 5%;
+    width: 90%;
+	padding: 20px 60px;
+    border-radius: 15px;
+    font-size: 18px;
+    }
+
+    .factsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
